@@ -1,0 +1,50 @@
+.main {
+    &__imgPortada {
+        display: grid;
+        max-width: 100%;
+        min-width: 320px;
+        margin: auto;
+        img{
+            width: 100%;
+        }
+    }
+    &__secciones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__subtitulo {
+        text-align: center;
+        margin: 20px;
+        padding: 10px;
+    }
+    &__texto{
+        margin: 10px;
+        padding: 10px;
+    }
+    &__div{
+        display: flex;
+        border-style: inherit;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__video{
+        margin: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+    &__btn{
+        display: grid;
+        margin: 50px;
+        padding: 10px;
+        justify-content: center;
+        a{
+        text-decoration: none;
+        color: antiquewhite;        
+            &:hover{
+                font-weight: 1000;
+                color: rgb(45, 48, 51);
+            }
+        }
+    }
+}

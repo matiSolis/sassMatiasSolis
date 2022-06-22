@@ -1,0 +1,28 @@
+.footer{
+    display: grid;
+    height: 208px;
+    width: 100%;
+    background-color: rgb(45, 48, 51);
+    span{
+        margin: 10px;
+        padding: 5px;
+    }
+    &__form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(45, 48, 51);
+        input{
+            margin: 5px;
+        }
+    }
+    &__ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        background-color: rgb(45, 48, 51);
+        li{
+            margin: 20px;
+        }
+    }
+}
